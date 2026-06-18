@@ -1,0 +1,9 @@
+(module Furo-pé (layer F.Cu) (tedit 61B8E53F)
+  (fp_text reference REF** (at 0 4.2) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Furo-pé (at 0 -5.1) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.5) (layers *.Cu))
+)

@@ -1,0 +1,682 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_SPDT SWA1
+U 1 1 61475951
+P 2050 2250
+F 0 "SWA1" H 2050 2535 50  0000 C CNN
+F 1 "SW_SPDT" H 2050 2444 50  0000 C CNN
+F 2 "Placa de resistores CA:chave-hh" H 2050 2250 50  0001 C CNN
+F 3 "~" H 2050 2250 50  0001 C CNN
+	1    2050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SWA2
+U 1 1 6147A30A
+P 2050 2550
+F 0 "SWA2" H 2050 2835 50  0000 C CNN
+F 1 "SW_SPDT" H 2050 2744 50  0000 C CNN
+F 2 "Placa de resistores CA:chave-hh" H 2050 2550 50  0001 C CNN
+F 3 "~" H 2050 2550 50  0001 C CNN
+	1    2050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SWA3
+U 1 1 6147AF0B
+P 2050 2850
+F 0 "SWA3" H 2050 3135 50  0000 C CNN
+F 1 "SW_SPDT" H 2050 3044 50  0000 C CNN
+F 2 "Placa de resistores CA:chave-hh" H 2050 2850 50  0001 C CNN
+F 3 "~" H 2050 2850 50  0001 C CNN
+	1    2050 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SWA4
+U 1 1 6147AF12
+P 2050 3150
+F 0 "SWA4" H 2050 3435 50  0000 C CNN
+F 1 "SW_SPDT" H 2050 3344 50  0000 C CNN
+F 2 "Placa de resistores CA:chave-hh" H 2050 3150 50  0001 C CNN
+F 3 "~" H 2050 3150 50  0001 C CNN
+	1    2050 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SWA5
+U 1 1 6147E224
+P 2050 3450
+F 0 "SWA5" H 2050 3735 50  0000 C CNN
+F 1 "SW_SPDT" H 2050 3644 50  0000 C CNN
+F 2 "Placa de resistores CA:chave-hh" H 2050 3450 50  0001 C CNN
+F 3 "~" H 2050 3450 50  0001 C CNN
+	1    2050 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SWA6
+U 1 1 6147E22B
+P 2050 3750
+F 0 "SWA6" H 2050 4035 50  0000 C CNN
+F 1 "SW_SPDT" H 2050 3944 50  0000 C CNN
+F 2 "Placa de resistores CA:chave-hh" H 2050 3750 50  0001 C CNN
+F 3 "~" H 2050 3750 50  0001 C CNN
+	1    2050 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R RA1
+U 1 1 614673AD
+P 2750 2350
+F 0 "RA1" H 2820 2396 50  0000 L CNN
+F 1 "100" H 2820 2305 50  0000 L CNN
+F 2 "Placa de resistores CA:Resistor_10W_porcelana" V 2680 2350 50  0001 C CNN
+F 3 "~" H 2750 2350 50  0001 C CNN
+	1    2750 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R RA2
+U 1 1 6146B710
+P 2750 2650
+F 0 "RA2" H 2820 2696 50  0000 L CNN
+F 1 "100" H 2820 2605 50  0000 L CNN
+F 2 "Placa de resistores CA:Resistor_10W_porcelana" V 2680 2650 50  0001 C CNN
+F 3 "~" H 2750 2650 50  0001 C CNN
+	1    2750 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R RA3
+U 1 1 6146B846
+P 2750 2950
+F 0 "RA3" H 2820 2996 50  0000 L CNN
+F 1 "100" H 2820 2905 50  0000 L CNN
+F 2 "Placa de resistores CA:Resistor_10W_porcelana" V 2680 2950 50  0001 C CNN
+F 3 "~" H 2750 2950 50  0001 C CNN
+	1    2750 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R RA4
+U 1 1 6146B9CB
+P 2750 3250
+F 0 "RA4" H 2820 3296 50  0000 L CNN
+F 1 "100" H 2820 3205 50  0000 L CNN
+F 2 "Placa de resistores CA:Resistor_10W_porcelana" V 2680 3250 50  0001 C CNN
+F 3 "~" H 2750 3250 50  0001 C CNN
+	1    2750 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R RA5
+U 1 1 6146BBE8
+P 2750 3550
+F 0 "RA5" H 2820 3596 50  0000 L CNN
+F 1 "100" H 2820 3505 50  0000 L CNN
+F 2 "Placa de resistores CA:Resistor_10W_porcelana" V 2680 3550 50  0001 C CNN
+F 3 "~" H 2750 3550 50  0001 C CNN
+	1    2750 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R RA6
+U 1 1 6146C436
+P 2750 3850
+F 0 "RA6" H 2820 3896 50  0000 L CNN
+F 1 "100" H 2820 3805 50  0000 L CNN
+F 2 "Placa de resistores CA:Resistor_10W_porcelana" V 2680 3850 50  0001 C CNN
+F 3 "~" H 2750 3850 50  0001 C CNN
+	1    2750 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 2350 2600 2350
+Wire Wire Line
+	2250 2650 2600 2650
+Wire Wire Line
+	2250 2950 2600 2950
+Wire Wire Line
+	2250 3250 2600 3250
+Wire Wire Line
+	2250 3550 2600 3550
+Wire Wire Line
+	2250 3850 2600 3850
+Wire Wire Line
+	1650 2850 1650 2550
+Wire Wire Line
+	1650 2250 1850 2250
+Wire Wire Line
+	1850 2550 1650 2550
+Connection ~ 1650 2550
+Wire Wire Line
+	1650 2550 1650 2250
+Wire Wire Line
+	1850 2850 1650 2850
+Connection ~ 1650 2850
+Wire Wire Line
+	1850 3150 1650 3150
+Wire Wire Line
+	1650 3150 1650 3000
+Wire Wire Line
+	1850 3450 1650 3450
+Wire Wire Line
+	1650 3450 1650 3150
+Connection ~ 1650 3150
+Wire Wire Line
+	1850 3750 1650 3750
+Wire Wire Line
+	1650 3750 1650 3450
+Connection ~ 1650 3450
+Wire Wire Line
+	2900 2350 3100 2350
+Wire Wire Line
+	3100 2350 3100 2650
+Wire Wire Line
+	2900 2650 3100 2650
+Connection ~ 3100 2650
+Wire Wire Line
+	3100 2650 3100 2950
+Wire Wire Line
+	2900 2950 3100 2950
+Connection ~ 3100 2950
+Wire Wire Line
+	3100 2950 3100 3250
+Wire Wire Line
+	2900 3250 3100 3250
+Connection ~ 3100 3250
+Wire Wire Line
+	3100 3250 3100 3550
+Wire Wire Line
+	2900 3550 3100 3550
+Connection ~ 3100 3550
+Wire Wire Line
+	3100 3550 3100 3850
+Wire Wire Line
+	2900 3850 3100 3850
+Connection ~ 3100 3850
+Wire Wire Line
+	3100 3850 3100 4450
+$Comp
+L Switch:SW_SPDT SWB1
+U 1 1 614DE5F0
+P 4400 2250
+F 0 "SWB1" H 4400 2535 50  0000 C CNN
+F 1 "SW_SPDT" H 4400 2444 50  0000 C CNN
+F 2 "Placa de resistores CA:chave-hh" H 4400 2250 50  0001 C CNN
+F 3 "~" H 4400 2250 50  0001 C CNN
+	1    4400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SWB2
+U 1 1 614DE5F6
+P 4400 2550
+F 0 "SWB2" H 4400 2835 50  0000 C CNN
+F 1 "SW_SPDT" H 4400 2744 50  0000 C CNN
+F 2 "Placa de resistores CA:chave-hh" H 4400 2550 50  0001 C CNN
+F 3 "~" H 4400 2550 50  0001 C CNN
+	1    4400 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SWB3
+U 1 1 614DE5FC
+P 4400 2850
+F 0 "SWB3" H 4400 3135 50  0000 C CNN
+F 1 "SW_SPDT" H 4400 3044 50  0000 C CNN
+F 2 "Placa de resistores CA:chave-hh" H 4400 2850 50  0001 C CNN
+F 3 "~" H 4400 2850 50  0001 C CNN
+	1    4400 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SWB4
+U 1 1 614DE602
+P 4400 3150
+F 0 "SWB4" H 4400 3435 50  0000 C CNN
+F 1 "SW_SPDT" H 4400 3344 50  0000 C CNN
+F 2 "Placa de resistores CA:chave-hh" H 4400 3150 50  0001 C CNN
+F 3 "~" H 4400 3150 50  0001 C CNN
+	1    4400 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SWB5
+U 1 1 614DE608
+P 4400 3450
+F 0 "SWB5" H 4400 3735 50  0000 C CNN
+F 1 "SW_SPDT" H 4400 3644 50  0000 C CNN
+F 2 "Placa de resistores CA:chave-hh" H 4400 3450 50  0001 C CNN
+F 3 "~" H 4400 3450 50  0001 C CNN
+	1    4400 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SWB6
+U 1 1 614DE60E
+P 4400 3750
+F 0 "SWB6" H 4400 4035 50  0000 C CNN
+F 1 "SW_SPDT" H 4400 3944 50  0000 C CNN
+F 2 "Placa de resistores CA:chave-hh" H 4400 3750 50  0001 C CNN
+F 3 "~" H 4400 3750 50  0001 C CNN
+	1    4400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R RB1
+U 1 1 614DE623
+P 5100 2350
+F 0 "RB1" H 5170 2396 50  0000 L CNN
+F 1 "100" H 5170 2305 50  0000 L CNN
+F 2 "Placa de resistores CA:Resistor_10W_porcelana" V 5030 2350 50  0001 C CNN
+F 3 "~" H 5100 2350 50  0001 C CNN
+	1    5100 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R RB2
+U 1 1 614DE629
+P 5100 2650
+F 0 "RB2" H 5170 2696 50  0000 L CNN
+F 1 "100" H 5170 2605 50  0000 L CNN
+F 2 "Placa de resistores CA:Resistor_10W_porcelana" V 5030 2650 50  0001 C CNN
+F 3 "~" H 5100 2650 50  0001 C CNN
+	1    5100 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R RB3
+U 1 1 614DE62F
+P 5100 2950
+F 0 "RB3" H 5170 2996 50  0000 L CNN
+F 1 "100" H 5170 2905 50  0000 L CNN
+F 2 "Placa de resistores CA:Resistor_10W_porcelana" V 5030 2950 50  0001 C CNN
+F 3 "~" H 5100 2950 50  0001 C CNN
+	1    5100 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R RB4
+U 1 1 614DE635
+P 5100 3250
+F 0 "RB4" H 5170 3296 50  0000 L CNN
+F 1 "100" H 5170 3205 50  0000 L CNN
+F 2 "Placa de resistores CA:Resistor_10W_porcelana" V 5030 3250 50  0001 C CNN
+F 3 "~" H 5100 3250 50  0001 C CNN
+	1    5100 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R RB5
+U 1 1 614DE63B
+P 5100 3550
+F 0 "RB5" H 5170 3596 50  0000 L CNN
+F 1 "100" H 5170 3505 50  0000 L CNN
+F 2 "Placa de resistores CA:Resistor_10W_porcelana" V 5030 3550 50  0001 C CNN
+F 3 "~" H 5100 3550 50  0001 C CNN
+	1    5100 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R RB6
+U 1 1 614DE641
+P 5100 3850
+F 0 "RB6" H 5170 3896 50  0000 L CNN
+F 1 "100" H 5170 3805 50  0000 L CNN
+F 2 "Placa de resistores CA:Resistor_10W_porcelana" V 5030 3850 50  0001 C CNN
+F 3 "~" H 5100 3850 50  0001 C CNN
+	1    5100 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 2350 4950 2350
+Wire Wire Line
+	4600 2650 4950 2650
+Wire Wire Line
+	4600 2950 4950 2950
+Wire Wire Line
+	4600 3250 4950 3250
+Wire Wire Line
+	4600 3550 4950 3550
+Wire Wire Line
+	4600 3850 4950 3850
+Wire Wire Line
+	4000 2850 4000 2550
+Wire Wire Line
+	4000 2250 4200 2250
+Wire Wire Line
+	4200 2550 4000 2550
+Connection ~ 4000 2550
+Wire Wire Line
+	4000 2550 4000 2250
+Wire Wire Line
+	4200 2850 4000 2850
+Connection ~ 4000 2850
+Wire Wire Line
+	4200 3150 4000 3150
+Wire Wire Line
+	4000 3150 4000 3050
+Wire Wire Line
+	4200 3450 4000 3450
+Wire Wire Line
+	4000 3450 4000 3150
+Connection ~ 4000 3150
+Wire Wire Line
+	4200 3750 4000 3750
+Wire Wire Line
+	4000 3750 4000 3450
+Connection ~ 4000 3450
+Wire Wire Line
+	5250 2350 5450 2350
+Wire Wire Line
+	5450 2350 5450 2650
+Wire Wire Line
+	5250 2650 5450 2650
+Connection ~ 5450 2650
+Wire Wire Line
+	5450 2650 5450 2950
+Wire Wire Line
+	5250 2950 5450 2950
+Connection ~ 5450 2950
+Wire Wire Line
+	5450 2950 5450 3250
+Wire Wire Line
+	5250 3250 5450 3250
+Connection ~ 5450 3250
+Wire Wire Line
+	5450 3250 5450 3550
+Wire Wire Line
+	5250 3550 5450 3550
+Connection ~ 5450 3550
+Wire Wire Line
+	5450 3550 5450 3850
+Wire Wire Line
+	5250 3850 5450 3850
+Connection ~ 5450 3850
+Wire Wire Line
+	5450 3850 5450 4450
+$Comp
+L Switch:SW_SPDT SWC1
+U 1 1 614EC18C
+P 6700 2250
+F 0 "SWC1" H 6700 2535 50  0000 C CNN
+F 1 "SW_SPDT" H 6700 2444 50  0000 C CNN
+F 2 "Placa de resistores CA:chave-hh" H 6700 2250 50  0001 C CNN
+F 3 "~" H 6700 2250 50  0001 C CNN
+	1    6700 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SWC2
+U 1 1 614EC192
+P 6700 2550
+F 0 "SWC2" H 6700 2835 50  0000 C CNN
+F 1 "SW_SPDT" H 6700 2744 50  0000 C CNN
+F 2 "Placa de resistores CA:chave-hh" H 6700 2550 50  0001 C CNN
+F 3 "~" H 6700 2550 50  0001 C CNN
+	1    6700 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SWC3
+U 1 1 614EC198
+P 6700 2850
+F 0 "SWC3" H 6700 3135 50  0000 C CNN
+F 1 "SW_SPDT" H 6700 3044 50  0000 C CNN
+F 2 "Placa de resistores CA:chave-hh" H 6700 2850 50  0001 C CNN
+F 3 "~" H 6700 2850 50  0001 C CNN
+	1    6700 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SWC4
+U 1 1 614EC19E
+P 6700 3150
+F 0 "SWC4" H 6700 3435 50  0000 C CNN
+F 1 "SW_SPDT" H 6700 3344 50  0000 C CNN
+F 2 "Placa de resistores CA:chave-hh" H 6700 3150 50  0001 C CNN
+F 3 "~" H 6700 3150 50  0001 C CNN
+	1    6700 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SWC5
+U 1 1 614EC1A4
+P 6700 3450
+F 0 "SWC5" H 6700 3735 50  0000 C CNN
+F 1 "SW_SPDT" H 6700 3644 50  0000 C CNN
+F 2 "Placa de resistores CA:chave-hh" H 6700 3450 50  0001 C CNN
+F 3 "~" H 6700 3450 50  0001 C CNN
+	1    6700 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SWC6
+U 1 1 614EC1AA
+P 6700 3750
+F 0 "SWC6" H 6700 4035 50  0000 C CNN
+F 1 "SW_SPDT" H 6700 3944 50  0000 C CNN
+F 2 "Placa de resistores CA:chave-hh" H 6700 3750 50  0001 C CNN
+F 3 "~" H 6700 3750 50  0001 C CNN
+	1    6700 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R RC1
+U 1 1 614EC1BF
+P 7400 2350
+F 0 "RC1" H 7470 2396 50  0000 L CNN
+F 1 "100" H 7470 2305 50  0000 L CNN
+F 2 "Placa de resistores CA:Resistor_10W_porcelana" V 7330 2350 50  0001 C CNN
+F 3 "~" H 7400 2350 50  0001 C CNN
+	1    7400 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R RC2
+U 1 1 614EC1C5
+P 7400 2650
+F 0 "RC2" H 7470 2696 50  0000 L CNN
+F 1 "100" H 7470 2605 50  0000 L CNN
+F 2 "Placa de resistores CA:Resistor_10W_porcelana" V 7330 2650 50  0001 C CNN
+F 3 "~" H 7400 2650 50  0001 C CNN
+	1    7400 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R RC3
+U 1 1 614EC1CB
+P 7400 2950
+F 0 "RC3" H 7470 2996 50  0000 L CNN
+F 1 "100" H 7470 2905 50  0000 L CNN
+F 2 "Placa de resistores CA:Resistor_10W_porcelana" V 7330 2950 50  0001 C CNN
+F 3 "~" H 7400 2950 50  0001 C CNN
+	1    7400 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R RC4
+U 1 1 614EC1D1
+P 7400 3250
+F 0 "RC4" H 7470 3296 50  0000 L CNN
+F 1 "100" H 7470 3205 50  0000 L CNN
+F 2 "Placa de resistores CA:Resistor_10W_porcelana" V 7330 3250 50  0001 C CNN
+F 3 "~" H 7400 3250 50  0001 C CNN
+	1    7400 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R RC5
+U 1 1 614EC1D7
+P 7400 3550
+F 0 "RC5" H 7470 3596 50  0000 L CNN
+F 1 "100" H 7470 3505 50  0000 L CNN
+F 2 "Placa de resistores CA:Resistor_10W_porcelana" V 7330 3550 50  0001 C CNN
+F 3 "~" H 7400 3550 50  0001 C CNN
+	1    7400 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R RC6
+U 1 1 614EC1DD
+P 7400 3850
+F 0 "RC6" H 7470 3896 50  0000 L CNN
+F 1 "100" H 7470 3805 50  0000 L CNN
+F 2 "Placa de resistores CA:Resistor_10W_porcelana" V 7330 3850 50  0001 C CNN
+F 3 "~" H 7400 3850 50  0001 C CNN
+	1    7400 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6900 2350 7250 2350
+Wire Wire Line
+	6900 2650 7250 2650
+Wire Wire Line
+	6900 2950 7250 2950
+Wire Wire Line
+	6900 3250 7250 3250
+Wire Wire Line
+	6900 3550 7250 3550
+Wire Wire Line
+	6900 3850 7250 3850
+Wire Wire Line
+	6300 2850 6300 2550
+Wire Wire Line
+	6300 2250 6500 2250
+Wire Wire Line
+	6500 2550 6300 2550
+Connection ~ 6300 2550
+Wire Wire Line
+	6300 2550 6300 2250
+Wire Wire Line
+	6500 2850 6300 2850
+Connection ~ 6300 2850
+Wire Wire Line
+	6500 3150 6300 3150
+Wire Wire Line
+	6300 3150 6300 3050
+Wire Wire Line
+	6500 3450 6300 3450
+Wire Wire Line
+	6300 3450 6300 3150
+Connection ~ 6300 3150
+Wire Wire Line
+	6500 3750 6300 3750
+Wire Wire Line
+	6300 3750 6300 3450
+Connection ~ 6300 3450
+Wire Wire Line
+	7550 2350 7750 2350
+Wire Wire Line
+	7750 2350 7750 2650
+Wire Wire Line
+	7550 2650 7750 2650
+Connection ~ 7750 2650
+Wire Wire Line
+	7750 2650 7750 2950
+Wire Wire Line
+	7550 2950 7750 2950
+Connection ~ 7750 2950
+Wire Wire Line
+	7750 2950 7750 3250
+Wire Wire Line
+	7550 3250 7750 3250
+Connection ~ 7750 3250
+Wire Wire Line
+	7750 3250 7750 3550
+Wire Wire Line
+	7550 3550 7750 3550
+Connection ~ 7750 3550
+Wire Wire Line
+	7750 3550 7750 3850
+Wire Wire Line
+	7550 3850 7750 3850
+Connection ~ 7750 3850
+Wire Wire Line
+	7750 3850 7750 4450
+Connection ~ 5450 4450
+$Comp
+L Connector:Conn_01x01_Female A1
+U 1 1 6151580F
+P 1300 3000
+F 0 "A1" H 1328 3026 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 1328 2935 50  0000 L CNN
+F 2 "Placa de resistores CA:Borne" H 1300 3000 50  0001 C CNN
+F 3 "~" H 1300 3000 50  0001 C CNN
+	1    1300 3000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 3000 1650 3000
+Connection ~ 1650 3000
+Wire Wire Line
+	1650 3000 1650 2850
+$Comp
+L Connector:Conn_01x01_Female B1
+U 1 1 6153070F
+P 3450 3050
+F 0 "B1" H 3342 3235 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 3342 3144 50  0000 C CNN
+F 2 "Placa de resistores CA:Borne" H 3450 3050 50  0001 C CNN
+F 3 "~" H 3450 3050 50  0001 C CNN
+	1    3450 3050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3050 4000 3050
+Connection ~ 4000 3050
+Wire Wire Line
+	4000 3050 4000 2850
+$Comp
+L Connector:Conn_01x01_Female C1
+U 1 1 6154BE9A
+P 5800 3050
+F 0 "C1" H 5692 3235 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5692 3144 50  0000 C CNN
+F 2 "Placa de resistores CA:Borne" H 5800 3050 50  0001 C CNN
+F 3 "~" H 5800 3050 50  0001 C CNN
+	1    5800 3050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3050 6300 3050
+Connection ~ 6300 3050
+Wire Wire Line
+	6300 3050 6300 2850
+$Comp
+L Connector:Conn_01x01_Female N1
+U 1 1 61560A71
+P 5150 4950
+F 0 "N1" V 4996 4862 50  0000 R CNN
+F 1 "Conn_01x01_Female" V 5087 4862 50  0000 R CNN
+F 2 "Placa de resistores CA:Borne" H 5150 4950 50  0001 C CNN
+F 3 "~" H 5150 4950 50  0001 C CNN
+	1    5150 4950
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5150 4750 5150 4450
+Connection ~ 5150 4450
+Wire Wire Line
+	5150 4450 5450 4450
+Wire Wire Line
+	3100 4450 5150 4450
+Wire Wire Line
+	5450 4450 7750 4450
+$EndSCHEMATC
